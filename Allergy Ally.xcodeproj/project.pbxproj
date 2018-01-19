@@ -12,7 +12,6 @@
 		2B46D3991F86659A009E517D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B46D3971F86659A009E517D /* Main.storyboard */; };
 		2B46D39B1F86659A009E517D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B46D39A1F86659A009E517D /* Assets.xcassets */; };
 		2B46D39E1F86659A009E517D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B46D39C1F86659A009E517D /* LaunchScreen.storyboard */; };
-		2B46D3A91F86659A009E517D /* Allergy_AllyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B46D3A81F86659A009E517D /* Allergy_AllyUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,6 @@
 		2B46D39D1F86659A009E517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B46D39F1F86659A009E517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B46D3A41F86659A009E517D /* Allergy AllyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allergy AllyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B46D3A81F86659A009E517D /* Allergy_AllyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy_AllyUITests.swift; sourceTree = "<group>"; };
-		2B46D3AA1F86659A009E517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				2B46D3921F86659A009E517D /* Allergy Ally */,
-				2B46D3A71F86659A009E517D /* Allergy AllyUITests */,
 				2B46D3911F86659A009E517D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,15 +81,6 @@
 				2B46D39F1F86659A009E517D /* Info.plist */,
 			);
 			path = "Allergy Ally";
-			sourceTree = "<group>";
-		};
-		2B46D3A71F86659A009E517D /* Allergy AllyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B46D3A81F86659A009E517D /* Allergy_AllyUITests.swift */,
-				2B46D3AA1F86659A009E517D /* Info.plist */,
-			);
-			path = "Allergy AllyUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B46D3A91F86659A009E517D /* Allergy_AllyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
